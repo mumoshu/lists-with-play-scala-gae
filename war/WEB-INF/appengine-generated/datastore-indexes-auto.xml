@@ -1,4 +1,19 @@
-<!-- Indices written at Tue, 28 Sep 2010 16:28:38 JST -->
+<!-- Indices written at Sun, 12 Dec 2010 00:57:03 PST -->
 
-<datastore-indexes/>
+<datastore-indexes>
 
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Item" ancestor="false" source="auto">
+        <property name="done" direction="asc"/>
+        <property name="id" direction="asc"/>
+        <property name="position" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Item" ancestor="false" source="auto">
+        <property name="done" direction="asc"/>
+        <property name="id" direction="asc"/>
+        <property name="position" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>
